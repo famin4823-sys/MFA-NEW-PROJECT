@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>পাজল গেম</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game-card">
+    <header>
+      <p class="eyebrow">ছোট্ট একটা ব্রেইন চ্যালেঞ্জ</p>
+      <h1>🧩 পাজল গেম</h1>
+      <p class="instructions">টাইলগুলো সরিয়ে ১ থেকে ৮ পর্যন্ত সাজাও।</p>
+    </header>
+
+    <section class="stats" aria-label="গেমের হিসাব">
+      <div><span>চাল</span><strong id="moves">0</strong></div>
+      <div><span>সময়</span><strong id="timer">00:00</strong></div>
+      <div><span>সেরা</span><strong id="best">—</strong></div>
+    </section>
+
+    <div id="board" class="board" aria-label="পাজল বোর্ড"></div>
+
+    <p id="message" class="message" aria-live="polite">
+      শুরু করতে “নতুন গেম” চাপো!
+    </p>
+
+    <button id="new-game" class="new-game-button" type="button">
+      নতুন গেম
+    </button>
+
+    <p class="keyboard-hint">কম্পিউটারে arrow key দিয়েও খেলতে পারো।</p>
+  </main>
+</body>
+</html>
