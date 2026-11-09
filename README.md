@@ -1,2 +1,3 @@
-# MFA-NEW-PROJECT
-ekhane amar kichu guruttopurno kaj  korbo 
+# আমার প্রথম প্রজেক্ট
+
+এটা আমার GitHub-এ তৈরি করা প্রথম প্রজেক্ট।
